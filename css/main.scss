@@ -1,0 +1,292 @@
+//global
+body {
+  font-family: Lato;
+}
+h1, h2 ,h3 {
+  font-family: "Roboto Slab";
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #5eb6cd;
+
+}
+//header section
+header {
+  background: url("../img/header_bg.png") no-repeat;
+  background-size: cover;
+  max-height: 610px;
+  .header {
+    position: relative;
+    padding-top: 15px;
+    .banner-img {
+      width: 100%;
+      border: 10px white solid;
+    }
+    .logo {
+      position: relative;
+      top: -25px;
+    }
+    button {
+      float: right;
+      background: white;
+      border: none;
+      border-radius: 20px;
+      padding: 0 15px;
+    }
+    ul.menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      float: right;
+      li {
+        float: left;
+        a {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
+//about section
+section.about {
+  padding-bottom: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 160px;
+  }
+  h1, h2 {
+    text-align: right;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+  img {
+    float: right;
+    margin-top: 10px;
+  }
+}
+//news scetion
+section.news {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 40px 0;
+  p {
+    text-align: left;
+  }
+  h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  h1:after {
+    content: "__";
+    display: block;
+    margin: -25px 0 auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #5c5c5c;
+  }
+  h4 {
+    font-weight: bold;
+    text-align: left;
+  }
+  img {
+    margin-top: 10px;
+  }
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+  button.view-more {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 50px;
+  }
+  button.view-more:hover {
+    background-color: white;
+    color: black;
+    -webkit-box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    transition: all 0.5s ease 0s;
+  }
+}
+//events section
+section.events {
+  text-align: center;
+  padding: 40px 0;
+  .event-card {
+    text-align: center;
+    border: 1px solid #F5F5F5;
+    margin-bottom: 20px;
+    &-title {
+      background-color: #F6F6F6;
+      font-weight: bold;
+      padding: 10px 0;
+    }
+    &-name {
+      font-weight: bold;
+      padding: 10px 0;
+    }
+    &-date {
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+    &-host {
+      color: white;
+      background-color: black;
+      padding: 10px 0;
+    }
+  }
+  p {
+    min-height: 120px;
+    padding: 10px;
+  }
+  h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  h1:after {
+    content: "__";
+    display: block;
+    margin: -25px 0 auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #5c5c5c;
+  }
+  h4 {
+    font-weight: bold;
+    text-align: left;
+  }
+  img {
+    margin-top: 20px;
+  }
+  button.view-more {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 50px;
+  }
+  button.view-more:hover {
+    background-color: white;
+    color: black;
+    -webkit-box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    transition: all 0.5s ease 0s;
+  }
+}
+//video section
+section.video {
+  min-height: 700px;
+  width: 100%;
+  background: url("../img/video_bg.png") no-repeat;
+  background-size: cover;
+  iframe {
+    width: 100%!important;
+    padding-top: 70px;
+  }
+  img {
+    margin-top: -5px;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    min-height: 100px;
+  }
+  ul.site-map {
+    list-style-type: disc;
+    padding-left: 18px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  img {
+    margin-top: 20px;
+  }
+  i {
+    margin-right: 5px;
+  }
+  button {
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-top: 20px;
+  }
+  .copy-right {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #2e2e2e;
+  }
+}
+//tablet mode
+@media screen and (max-width: 992px){
+  //about section
+  section.about {
+    padding-top: 20px;
+    h1, h2 {
+      text-align: left;
+    }
+    img {
+      float: left;
+      margin-bottom: 20px;
+    }
+  }
+  //footer section
+  footer {
+    button {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+//mobile mode
+@media screen and (max-width: 768px){
+  h1, h2 {
+    font-size: 25px;
+  }
+  //about section
+  section.about {
+    h1, h2 {
+      font-size: 25px;
+    }
+  }
+  //news section
+  section.news h1 {
+    margin-bottom: 0;
+  }
+  section.news h1:after {
+    margin: -15px 0 auto;
+  }
+}

@@ -1,0 +1,352 @@
+/* line 2, main.scss */
+body {
+  font-family: Lato;
+}
+
+/* line 5, main.scss */
+h1, h2, h3 {
+  font-family: "Roboto Slab";
+}
+
+/* line 9, main.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 14, main.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 17, main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 20, main.scss */
+a:hover {
+  text-decoration: none;
+  color: #5eb6cd;
+}
+
+/* line 26, main.scss */
+header {
+  background: url("../img/header_bg.png") no-repeat;
+  background-size: cover;
+  max-height: 610px;
+}
+/* line 30, main.scss */
+header .header {
+  position: relative;
+  padding-top: 15px;
+}
+/* line 33, main.scss */
+header .header .banner-img {
+  width: 100%;
+  border: 10px white solid;
+}
+/* line 37, main.scss */
+header .header .logo {
+  position: relative;
+  top: -25px;
+}
+/* line 41, main.scss */
+header .header button {
+  float: right;
+  background: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+/* line 48, main.scss */
+header .header ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+/* line 54, main.scss */
+header .header ul.menu li {
+  float: left;
+}
+/* line 56, main.scss */
+header .header ul.menu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 67, main.scss */
+header .header img {
+  max-width: 100%;
+}
+
+/* line 73, main.scss */
+section.about {
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  /* line 73, main.scss */
+  section.about {
+    margin-top: 160px;
+  }
+}
+/* line 78, main.scss */
+section.about h1, section.about h2 {
+  text-align: right;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+/* line 84, main.scss */
+section.about img {
+  float: right;
+  margin-top: 10px;
+}
+
+/* line 90, main.scss */
+section.news {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 40px 0;
+}
+/* line 94, main.scss */
+section.news p {
+  text-align: left;
+}
+/* line 97, main.scss */
+section.news h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+/* line 101, main.scss */
+section.news h1:after {
+  content: "__";
+  display: block;
+  margin: -25px 0 auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #5c5c5c;
+}
+/* line 109, main.scss */
+section.news h4 {
+  font-weight: bold;
+  text-align: left;
+}
+/* line 113, main.scss */
+section.news img {
+  margin-top: 10px;
+}
+/* line 116, main.scss */
+section.news .col-md-6 {
+  margin-bottom: 20px;
+}
+/* line 119, main.scss */
+section.news button.view-more {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 50px;
+}
+/* line 126, main.scss */
+section.news button.view-more:hover {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease 0s;
+}
+
+/* line 136, main.scss */
+section.events {
+  text-align: center;
+  padding: 40px 0;
+}
+/* line 139, main.scss */
+section.events .event-card {
+  text-align: center;
+  border: 1px solid #F5F5F5;
+  margin-bottom: 20px;
+}
+/* line 143, main.scss */
+section.events .event-card-title {
+  background-color: #F6F6F6;
+  font-weight: bold;
+  padding: 10px 0;
+}
+/* line 148, main.scss */
+section.events .event-card-name {
+  font-weight: bold;
+  padding: 10px 0;
+}
+/* line 152, main.scss */
+section.events .event-card-date {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* line 156, main.scss */
+section.events .event-card-host {
+  color: white;
+  background-color: black;
+  padding: 10px 0;
+}
+/* line 162, main.scss */
+section.events p {
+  min-height: 120px;
+  padding: 10px;
+}
+/* line 166, main.scss */
+section.events h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+/* line 170, main.scss */
+section.events h1:after {
+  content: "__";
+  display: block;
+  margin: -25px 0 auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #5c5c5c;
+}
+/* line 178, main.scss */
+section.events h4 {
+  font-weight: bold;
+  text-align: left;
+}
+/* line 182, main.scss */
+section.events img {
+  margin-top: 20px;
+}
+/* line 185, main.scss */
+section.events button.view-more {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 50px;
+}
+/* line 192, main.scss */
+section.events button.view-more:hover {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease 0s;
+}
+
+/* line 202, main.scss */
+section.video {
+  min-height: 700px;
+  width: 100%;
+  background: url("../img/video_bg.png") no-repeat;
+  background-size: cover;
+}
+/* line 207, main.scss */
+section.video iframe {
+  width: 100% !important;
+  padding-top: 70px;
+}
+/* line 211, main.scss */
+section.video img {
+  margin-top: -5px;
+}
+
+/* line 215, main.scss */
+footer {
+  background-color: black;
+  color: white;
+}
+/* line 218, main.scss */
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  min-height: 100px;
+}
+/* line 223, main.scss */
+footer ul.site-map {
+  list-style-type: disc;
+  padding-left: 18px;
+}
+/* line 227, main.scss */
+footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 232, main.scss */
+footer img {
+  margin-top: 20px;
+}
+/* line 235, main.scss */
+footer i {
+  margin-right: 5px;
+}
+/* line 238, main.scss */
+footer button {
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+/* line 246, main.scss */
+footer .copy-right {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #2e2e2e;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 256, main.scss */
+  section.about {
+    padding-top: 20px;
+  }
+  /* line 258, main.scss */
+  section.about h1, section.about h2 {
+    text-align: left;
+  }
+  /* line 261, main.scss */
+  section.about img {
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  /* line 268, main.scss */
+  footer button {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 276, main.scss */
+  h1, h2 {
+    font-size: 25px;
+  }
+
+  /* line 281, main.scss */
+  section.about h1, section.about h2 {
+    font-size: 25px;
+  }
+
+  /* line 286, main.scss */
+  section.news h1 {
+    margin-bottom: 0;
+  }
+
+  /* line 289, main.scss */
+  section.news h1:after {
+    margin: -15px 0 auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
