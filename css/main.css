@@ -82,49 +82,55 @@ header .header ul.menu li a {
   cursor: pointer;
 }
 /* line 67, main.scss */
+header .header .mobile-menu {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+/* line 72, main.scss */
 header .header img {
   max-width: 100%;
 }
 
-/* line 73, main.scss */
+/* line 78, main.scss */
 section.about {
   padding-bottom: 50px;
 }
 @media screen and (min-width: 1200px) {
-  /* line 73, main.scss */
+  /* line 78, main.scss */
   section.about {
     margin-top: 160px;
   }
 }
-/* line 78, main.scss */
+/* line 83, main.scss */
 section.about h1, section.about h2 {
   text-align: right;
   font-size: 45px;
   text-transform: uppercase;
   margin-top: 0;
 }
-/* line 84, main.scss */
+/* line 89, main.scss */
 section.about img {
   float: right;
   margin-top: 10px;
 }
 
-/* line 90, main.scss */
+/* line 95, main.scss */
 section.news {
   background-color: #F6F6F6;
   text-align: center;
   padding: 40px 0;
 }
-/* line 94, main.scss */
+/* line 99, main.scss */
 section.news p {
   text-align: left;
 }
-/* line 97, main.scss */
+/* line 102, main.scss */
 section.news h1 {
   margin-bottom: 30px;
   font-weight: bold;
 }
-/* line 101, main.scss */
+/* line 106, main.scss */
 section.news h1:after {
   content: "__";
   display: block;
@@ -133,20 +139,20 @@ section.news h1:after {
   font-weight: bold;
   color: #5c5c5c;
 }
-/* line 109, main.scss */
+/* line 114, main.scss */
 section.news h4 {
   font-weight: bold;
   text-align: left;
 }
-/* line 113, main.scss */
+/* line 118, main.scss */
 section.news img {
   margin-top: 10px;
 }
-/* line 116, main.scss */
+/* line 121, main.scss */
 section.news .col-md-6 {
   margin-bottom: 20px;
 }
-/* line 119, main.scss */
+/* line 124, main.scss */
 section.news button.view-more {
   border: none;
   background-color: black;
@@ -154,7 +160,7 @@ section.news button.view-more {
   padding: 10px 15px;
   margin-top: 50px;
 }
-/* line 126, main.scss */
+/* line 131, main.scss */
 section.news button.view-more:hover {
   background-color: white;
   color: black;
@@ -164,50 +170,50 @@ section.news button.view-more:hover {
   transition: all 0.5s ease 0s;
 }
 
-/* line 136, main.scss */
+/* line 141, main.scss */
 section.events {
   text-align: center;
   padding: 40px 0;
 }
-/* line 139, main.scss */
+/* line 144, main.scss */
 section.events .event-card {
   text-align: center;
   border: 1px solid #F5F5F5;
   margin-bottom: 20px;
 }
-/* line 143, main.scss */
+/* line 148, main.scss */
 section.events .event-card-title {
   background-color: #F6F6F6;
   font-weight: bold;
   padding: 10px 0;
 }
-/* line 148, main.scss */
+/* line 153, main.scss */
 section.events .event-card-name {
   font-weight: bold;
   padding: 10px 0;
 }
-/* line 152, main.scss */
+/* line 157, main.scss */
 section.events .event-card-date {
   font-weight: bold;
   padding-bottom: 10px;
 }
-/* line 156, main.scss */
+/* line 161, main.scss */
 section.events .event-card-host {
   color: white;
   background-color: black;
   padding: 10px 0;
 }
-/* line 162, main.scss */
+/* line 167, main.scss */
 section.events p {
   min-height: 120px;
   padding: 10px;
 }
-/* line 166, main.scss */
+/* line 171, main.scss */
 section.events h1 {
   margin-bottom: 30px;
   font-weight: bold;
 }
-/* line 170, main.scss */
+/* line 175, main.scss */
 section.events h1:after {
   content: "__";
   display: block;
@@ -216,16 +222,16 @@ section.events h1:after {
   font-weight: bold;
   color: #5c5c5c;
 }
-/* line 178, main.scss */
+/* line 183, main.scss */
 section.events h4 {
   font-weight: bold;
   text-align: left;
 }
-/* line 182, main.scss */
+/* line 187, main.scss */
 section.events img {
   margin-top: 20px;
 }
-/* line 185, main.scss */
+/* line 190, main.scss */
 section.events button.view-more {
   border: none;
   background-color: black;
@@ -233,7 +239,7 @@ section.events button.view-more {
   padding: 10px 15px;
   margin-top: 50px;
 }
-/* line 192, main.scss */
+/* line 197, main.scss */
 section.events button.view-more:hover {
   background-color: white;
   color: black;
@@ -243,54 +249,54 @@ section.events button.view-more:hover {
   transition: all 0.5s ease 0s;
 }
 
-/* line 202, main.scss */
+/* line 207, main.scss */
 section.video {
   min-height: 700px;
   width: 100%;
   background: url("../img/video_bg.png") no-repeat;
   background-size: cover;
 }
-/* line 207, main.scss */
+/* line 212, main.scss */
 section.video iframe {
   width: 100% !important;
   padding-top: 70px;
 }
-/* line 211, main.scss */
+/* line 216, main.scss */
 section.video img {
   margin-top: -5px;
 }
 
-/* line 215, main.scss */
+/* line 220, main.scss */
 footer {
   background-color: black;
   color: white;
 }
-/* line 218, main.scss */
+/* line 223, main.scss */
 footer ul {
   list-style-type: none;
   padding: 0;
   min-height: 100px;
 }
-/* line 223, main.scss */
+/* line 228, main.scss */
 footer ul.site-map {
   list-style-type: disc;
   padding-left: 18px;
 }
-/* line 227, main.scss */
+/* line 232, main.scss */
 footer a {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 232, main.scss */
+/* line 237, main.scss */
 footer img {
   margin-top: 20px;
 }
-/* line 235, main.scss */
+/* line 240, main.scss */
 footer i {
   margin-right: 5px;
 }
-/* line 238, main.scss */
+/* line 243, main.scss */
 footer button {
   border: none;
   background-color: white;
@@ -299,7 +305,7 @@ footer button {
   padding: 0 10px;
   margin-top: 20px;
 }
-/* line 246, main.scss */
+/* line 251, main.scss */
 footer .copy-right {
   padding: 10px;
   text-align: center;
@@ -308,42 +314,60 @@ footer .copy-right {
 }
 
 @media screen and (max-width: 992px) {
-  /* line 256, main.scss */
+  /* line 261, main.scss */
   section.about {
     padding-top: 20px;
   }
-  /* line 258, main.scss */
+  /* line 263, main.scss */
   section.about h1, section.about h2 {
     text-align: left;
   }
-  /* line 261, main.scss */
+  /* line 266, main.scss */
   section.about img {
     float: left;
     margin-bottom: 20px;
   }
 
-  /* line 268, main.scss */
+  /* line 273, main.scss */
   footer button {
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 276, main.scss */
+  /* line 281, main.scss */
   h1, h2 {
     font-size: 25px;
   }
 
-  /* line 281, main.scss */
+  /* line 284, main.scss */
+  header .row {
+    padding: 0 10px;
+  }
+
+  /* line 287, main.scss */
+  ul.menu {
+    display: none;
+  }
+
+  /* line 290, main.scss */
+  header .header .mobile-menu {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  /* line 298, main.scss */
   section.about h1, section.about h2 {
     font-size: 25px;
   }
 
-  /* line 286, main.scss */
+  /* line 303, main.scss */
   section.news h1 {
     margin-bottom: 0;
   }
 
-  /* line 289, main.scss */
+  /* line 306, main.scss */
   section.news h1:after {
     margin: -15px 0 auto;
   }

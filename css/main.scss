@@ -64,6 +64,11 @@ header {
       }
 
     }
+    .mobile-menu {
+      width: 30px;
+      height: 30px;
+      display: none;
+    }
     img {
       max-width: 100%;
     }
@@ -275,6 +280,18 @@ footer {
 @media screen and (max-width: 768px){
   h1, h2 {
     font-size: 25px;
+  }
+  header .row {
+    padding: 0 10px;
+  }
+  ul.menu {
+    display: none;
+  }
+  header .header .mobile-menu {
+    display:block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
   }
   //about section
   section.about {
